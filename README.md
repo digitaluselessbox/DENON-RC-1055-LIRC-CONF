@@ -21,7 +21,7 @@ Actually my first test was a very special situation. It take me a while to find 
 
 ## Remote Control
 
-**Brand:**Denon  
+**Brand:** Denon  
 **Model:** RC-1055  
 **Used for device:** DRA-500AE  
 **Used for device type:** HiFi-Receiver  
@@ -31,8 +31,14 @@ This rc has two different "ir-profiles" in it. The problem i, you can not mix tw
 So I created two configuration files. One file for each "ir-profile". On the remote you can see the number block that is souround by a line. This block has a different ir signal than all the other keys. Maybe this is to controll other Denon devices like CD-Players or something like that. I put this keys in **Profile 2**. In **Profile 1** I inluded all main Keys like Power or Volume. 
 
 ### Profile 1 Keys:
-OFF, ON, CD, DVD, TUNER, CD-R/TAPE-1, MD/TAPE-2, AUX, PREVIOUS CHANNEL, NEXT CHANNEL, VOLUME UP, VOLUME DOWN, MUTE, SHIFT/PTY, MENU, UP, RDS, LEFT, ENTER, RIGHT, BAND, STATUS, DOWN, IPOD
+
+**Key:** OFF, ON, CD, DVD, TUNER, CD-R/TAPE-1, MD/TAPE-2, AUX, PREVIOUS CHANNEL, NEXT CHANNEL, VOLUME UP, VOLUME DOWN, MUTE, SHIFT/PTY, MENU, UP, RDS, LEFT, ENTER, RIGHT, BAND, STATUS, DOWN, IPOD
+
+**Filename:** DENON_1055_1.lircd.conf
 
 ### Profile 2 keys:
-1, 2, 3, 4, 5, 6, 7, 8, 9, 0, +10, SKIP/DISK, PLAY, PAUSE, STOP, PREV, NEXT
+
+**Keys:** 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, +10, SKIP/DISK, PLAY, PAUSE, STOP, PREV, NEXT
+
+**Filename:** DENON_1055_2.lircd.conf
 
