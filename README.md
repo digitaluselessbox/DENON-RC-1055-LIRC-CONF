@@ -42,3 +42,100 @@ So I created two configuration files. One file for each "ir-profile". On the rem
 
 **Filename:** DENON_1055_2.lircd.conf
 
+### KEYS ON THE REMOTE
+
+     +------------------------------------------+
+     |                                          |
+     |               (OFF)         (ON)         |
+     |                                          |
+     |------------------------------------------|
+     |                                          |
+     | (  1  )       (  2  )       (  3  )      |
+     |                                          |
+     | (  4  )       (  5  )       (  6  )      |
+     |                                          |
+     | (  7  )       (  8  )       (  9  )      |
+     |                                          |
+     | (  0  )       ( +10 )       (SKIP/DISK)  |
+     |                                          |
+     |                                          |
+     | (PLAY)        (PAUSE)       (STOP)       |
+     |                                          |
+     |               (PREV)        (NEXT)       |
+     |                                          |
+     |------------------------------------------|
+     |                                          |
+     | (CD)          (DVD)         (TUNER)      |
+     |                                          |
+     | (CD-R/TAPE-1) (MD/TAPE-2)   (AUX)        |
+     |                                          |
+     |                                          |
+     | (PREV CHAN)   (VOLUME UP)   (MUTE)       |
+     |                                          |
+     | (NEXT CHAN)   (VOLUME DOWN) (SHIFT/PTY)  |
+     |                                          |
+     |                                          |
+     |  (MENU)     (UP)                (RDS)    |
+     |                                          |
+     |  (LEFT)     (ENTER)   (RIGHT)   (BAND)   |
+     |                                          |
+     |  (STATUS)   (DOWN)              (IPOD)   |
+     |                                          |
+     +------------------------------------------+
+    
+    
+### KEY MAPPINGS
+    
+    +------------------------------------------+
+    |                                          |
+    |             KEY_POWER2      KEY_POWER    |
+    |                                          |
+    |------------------------------------------|
+    |                                          |
+    | KEY_1       KEY_2         KEY_3          |
+    |                                          |
+    | KEY_4       KEY_5         KEY_6          |
+    |                                          |
+    | KEY_7       KEY_8         KEY_9          |
+    |                                          |
+    | KEY_0       KEY_102ND     KEY_VIDEO_NEXT |
+    |                                          |
+    |                                          |
+    | KEY_PLAY    KEY_PAUSE     KEY_STOP       |
+    |                                          |
+    |             KEY_PREVIOUS  KEY_NEXT       |
+    |                                          |
+    |------------------------------------------|
+    |                                          |
+    | KEY_CD      KEY_DVD       KEY_TUNER      |
+    |                                          |
+    | KEY_TAPE    KEY_VIDEO     KEY_AUX        |
+    |                                          |
+    |                                          |
+    | KEY_CHANNELUP  KEY_VOLUMEUP    KEY_MUTE  |
+    |                                          |
+    | KEY_CHANNELUP  KEY_VOLUMEDOWN  BTN_1     |
+    |                                          |
+    |                                          |
+    | KEY_MENU  KEY_UP               BTN_2     |
+    |                                          |
+    | KEY_LEFT  KEY_ENTER  KEY_RIGHT BTN_3     |
+    |                                          |
+    | KEY_INFO  KEY_DOWN             BTN_4     |
+    |                                          |
+    +------------------------------------------+
+
+
+### key allocations that are not obvious
+
+#### Profile 1
+
+**SKIP/DISK:** KEY_VIDEO_NEXT  
+**+10:** KEY_102ND  
+
+#### Profile 2
+
+**SHIFT/PTY:** BTN_1  
+**RDS:** BTN_2  
+**BAND:** BTN_3  
+**IPOD:** BTN_4  
